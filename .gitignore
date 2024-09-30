@@ -1,0 +1,49 @@
+# Ignore build, install, and log directories
+/build/
+/install/
+/log/
+
+# Ignore colcon configuration and setup files
+.colcon/
+.colcon_build.rc
+.colcon_command_prefix_build.sh
+.colcon_command_prefix_build.sh.env
+.colcon_install_layout/
+
+# Ignore CMake generated files
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/CTestTestfile.cmake
+**/CTestConfiguration.ini
+**/CTestCustom.cmake
+**/install_manifest.txt
+**/local_setup.*
+
+# Ignore ROS-related cache and build files
+**/COLCON_IGNORE
+**/ament_cmake_core/
+**/ament_cmake_environment_hooks/
+**/ament_cmake_export_include_directories/
+**/ament_cmake_export_dependencies/
+**/ament_cmake_package_templates/
+**/ament_cmake_uninstall_target/
+**/ament_cppcheck/
+**/ament_flake8/
+**/ament_lint_cmake/
+**/ament_pep257/
+**/ament_uncrustify/
+**/ament_xmllint/
+
+# Ignore specific Innoviz files
+**/innoviz_api/docs/
+**/innoviz_api/cnc_trace.bin
+**/innoviz_api/pcl_recording/
+
+# Ignore temporary or system files
+*.swp
+*.tmp
+*.log
+*.bak
+*.DS_Store
