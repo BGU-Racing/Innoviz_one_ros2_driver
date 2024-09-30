@@ -1,0 +1,9 @@
+{
+"device_type":"CM",
+"device_ip":"192.168.0.5",
+"grab_timeout_milliseconds":100,
+"max_packet_queue_size": 0,
+"channels":
+[
+    {"type":0,"port":9201}
+]}
